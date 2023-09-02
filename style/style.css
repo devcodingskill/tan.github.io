@@ -32,3 +32,11 @@
     padding: 8px 25px;
     transition: all 0.5s ease;
 }
+.navbar ul li a:hover
+{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+/*Home section*/
