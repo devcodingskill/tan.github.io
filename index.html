@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="style/table.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="style/phone.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,6 +14,7 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">About me</a></li>
             <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Service</a></li> 
             <li><a href="#">Contact</a></li>            
         </ul>
     </nav>
@@ -32,8 +35,6 @@
             <h1 class="headings">About me</h1>
             <h2>Tan</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Amet similique nobis quos,
                   dolorem praesentium suscipit cumque eligendi dolore, 
                   mollitia necessitatibus natus voluptatum eius dolorum nihil sit labore 
                   iure earum sequi dolores. Modi libero ut in rerum laboriosam quidem 
@@ -41,7 +42,6 @@
                   ipsam assumenda suscipit, beatae totam deleniti. Dolorem, eos reiciendis! Dolorem laboriosam laborum laudantium aperiam adipisci ullam, at recusandae voluptas perferendis, numquam, reprehenderit iusto a! Obcaecati harum ab exercitationem expedita distinctio deserunt atque porro, earum laborum sequi qui tenetur odit, amet accusamus, hic quae aliquid sed cum? Quia eum autem necessitatibus enim possimus dolorum totam distinctio. Sint, quam. Aliquid culpa accusamus voluptas temporibus eius enim magni, iste saepe inventore fugiat qui eum sunt ad unde ea alias voluptatibus impedit. Nesciunt adipisci officiis quae, laboriosam modi, magni repellendus distinctio aliquid beatae dolorem quos! Perferendis blanditiis modi, ab, repudiandae esse nemo vitae maiores consequuntur voluptas, molestias voluptates vero accusantium! Commodi quam delectus error est esse labore tenetur cum cumque, facere recusandae soluta accusantium corporis adipisci fugiat nesciunt ut vitae quia! Vel id vero enim et voluptatum consequuntur, consectetur non, obcaecati laboriosam facilis temporibus dolorem esse nulla dolores tenetur ipsa! Asperiores, quidem incidunt. Voluptate aliquid velit laborum.
             </p>
         </div>
-
      </div>
     </section>
 
@@ -61,25 +61,38 @@
         <h1 class="headings">Services</h1>
         <div class="row">
             <div class="box">
-                <img src="" alt="">
+                <img src="images/icon1.png" alt="">
                 <h1 class="headings">Website Design</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Minus iusto neque porro nemo et quasi necessitatibus animi sit expedita quas? 
                     Aperiam non veniam hic animi sed eius autem voluptatibus maiores?</p>
             </div>
             <div class="box">
+                <img src="images/icon2.png" alt="">
                 <h1 class="headings">UX/UI Design</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Minus iusto neque porro nemo et quasi necessitatibus animi sit expedita quas? 
                     Aperiam non veniam hic animi sed eius autem voluptatibus maiores?</p>
             </div>
             <div class="box">
+                <img src="images/icon3.png" alt="">
                 <h1 class="headings">Digital Marketing</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Minus iusto neque porro nemo et quasi necessitatibus animi sit expedita quas? 
                     Aperiam non veniam hic animi sed eius autem voluptatibus maiores?</p>
             </div>
         </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">Contact </h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter your name ">
+            <input type="email" name="email" class="input" placeholder="Enter your email ">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your message "></textarea>
+            <input type="submit" value="SEND" id="send">
+
+        </form>
     </section>
 </body>
 </html>
